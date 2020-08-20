@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c7ee38b-489e-4bfb-aded-0e5a70811240" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/pages/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/partials/_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/partials/_navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppharma/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppharma/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppharma/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppharma/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +85,7 @@
       <updated>1597487940224</updated>
       <workItem from="1597487942007" duration="1113000" />
       <workItem from="1597508707852" duration="4742000" />
-      <workItem from="1597915054361" duration="2053000" />
+      <workItem from="1597915054361" duration="5359000" />
     </task>
     <servers />
   </component>

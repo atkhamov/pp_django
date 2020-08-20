@@ -1,0 +1,75 @@
+{% load static %}
+
+<!-- Start FOOTER Section -->
+<!-- Start Contact Section -->
+<div id="contact">
+    <div class="container-fluid footer px-0">
+        <div class="row outer">
+            <div class="container">
+                <div class="row py-3">
+
+                    <div class="col-md-5 px-0 pr-md-3">
+                        <img src="img/logo.png" alt="">
+                        <p>Some content. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, facere.</p>
+                        <strong>Our Location</strong>
+                        <p>100 Street Name <br> Our City, AA100000</p>
+                        <strong>Contact Info</strong>
+                        <p>888-99999999<br>contact@propharma.kz</p>
+
+                        <ul class="social pt-3">
+                            <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div> <!--End Column-->
+
+                    <!-- Start Contact Form -->
+                    <div class="col-md-7 px-0 pl-md-3">
+                        <h3>Contact Us</h3>
+
+                        <!-- Below the contact.php should be changed to something which is supported by Django -->
+                        <form action="contact/contact.php" method="POST" id="contact-form">
+                            <div class="messages"></div>
+
+                            <div class="controls">
+                                <div class="form-group">
+                                    <input type="text" id="form_name" class="form-control" name="name" required="required" placeholder="Enter your name">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="email" id="form_email" class="form-control" name="email" required="required" placeholder="Enter your email">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" id="form_phone" class="form-control" name="phone" required="required" placeholder="Enter your phone number">
+                                </div>
+
+                                <div class="form-group">
+                                    <textarea name="message" id="form_message" rows="2" class="form-control" required="required" placeholder="Add your message">
+                                    </textarea>
+                                </div>
+
+                                <input type="submit" class="btn btn-outline-light rounded-0 btn-sm" value="Send Massage">
+                            </div> <!--End Controls-->
+                        </form> <!--End Form-->
+                    </div>
+                    <!-- End Contact Form -->
+
+                </div> <!--End Row-->
+                <hr class="socket">
+                &copy; Nuno Theme
+            </div> <!--End Container-->
+
+        </div> <!--End Row Outer-->
+
+    </div> <!--End Container Fluid-->
+</div>
+<!-- End Contact Section -->
+<!-- End FOOTER Section -->
+
+
+<!-- Top Scroll -->
+<a href="#home" class="top-scroll">
+    <i class="fa fa-angle-up"></i>
+</a>
+<!-- End of Top Scroll -->
