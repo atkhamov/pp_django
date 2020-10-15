@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c7ee38b-489e-4bfb-aded-0e5a70811240" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/newsreports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsreports/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsreports/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsreports/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsreports/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsreports/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsreports/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pages/newsreport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppharma/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppharma/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/_navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +34,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1g8EhqE8ZnKv6bsyasvOxFfpGYh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/BTREproject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BTREproject" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -55,6 +67,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="ppharma.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -88,7 +101,11 @@
       <workItem from="1597915054361" duration="5964000" />
       <workItem from="1598190641498" duration="766000" />
       <workItem from="1598804272296" duration="89000" />
-      <workItem from="1599203030198" duration="2304000" />
+      <workItem from="1599203030198" duration="3030000" />
+      <workItem from="1600445420588" duration="670000" />
+      <workItem from="1602514920804" duration="3110000" />
+      <workItem from="1602526568957" duration="791000" />
+      <workItem from="1602773730762" duration="696000" />
     </task>
     <servers />
   </component>
@@ -107,5 +124,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
