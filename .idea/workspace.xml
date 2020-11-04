@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c7ee38b-489e-4bfb-aded-0e5a70811240" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newsreports/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsreports/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsreports/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsreports/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsreports/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsreports/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsreports/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/pages/newsreport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsreports/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppharma/static/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppharma/static/css/lightbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppharma/static/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppharma/static/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/newsreports/newsreport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/newsreports/newsreports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsreports/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsreports/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppharma/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppharma/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppharma/static/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/ppharma/static/js/plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppharma/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppharma/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/newsreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/_navbar.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +45,13 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BTREproject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ppharma/static/js" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ppharma/static/js" />
+      <recent name="$PROJECT_DIR$/ppharma/static/css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/pages" />
     </key>
@@ -105,7 +113,16 @@
       <workItem from="1600445420588" duration="670000" />
       <workItem from="1602514920804" duration="3110000" />
       <workItem from="1602526568957" duration="791000" />
-      <workItem from="1602773730762" duration="696000" />
+      <workItem from="1602773730762" duration="6072000" />
+      <workItem from="1602831018422" duration="1827000" />
+      <workItem from="1602862507936" duration="1400000" />
+      <workItem from="1603025970877" duration="1607000" />
+      <workItem from="1603291607947" duration="599000" />
+      <workItem from="1603724240494" duration="1200000" />
+      <workItem from="1603884859135" duration="1198000" />
+      <workItem from="1603987794855" duration="519000" />
+      <workItem from="1603990881795" duration="1876000" />
+      <workItem from="1604520833605" duration="1145000" />
     </task>
     <servers />
   </component>
