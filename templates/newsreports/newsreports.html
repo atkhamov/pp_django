@@ -1,75 +1,206 @@
-{% extends 'base.html' %}
+{% extends 'baseAlt.html' %}
 
 {% block content %}
 
-    <!-- Start News Section -->
-	<div id="news" class="offset py-5">
-		<div class="row py-5">
+<!-- Listings -->
+<section id="products" class="offset">
+  <div class="fixed">
+     <div class="row news-light">
 
-			<div class="col-12 os-animation" data-animation="fadeInUp">
-				<h3 class="heading">News</h3>
-				<div class="heading-underline"></div>
-			</div>
+        <div class="col-12 os-animation" data-animation="fadeInUp">
+           <h3 class="heading">Новости</h3>
+           <div class="heading-underline"></div>
+        </div>
 
-			<div class="col-12 px-xl-5 os-animation" data-animation="fadeInUp">
-				<div id="news-carousel" class="owl-carousel owl-theme">
+        <!-- Listing 1 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+           <div class="card listing-preview">
+              <img class="card-img-top rounded-0" src="img/logo-news-1.jpg" alt="">
 
-					<!-- Start News Box -->
-					<div class="row news px-3 px-md-4">
-						<div class="col-lg-4 mx-auto"><img src="img/logo-news-1.jpg" alt="">
-						</div>
-						<div class="col-lg-8">
-							<blockquote class="text-justify">
-								<i class="fas fa-quote-left"></i>
-								I see Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium ipsum porro nulla impedit vero in! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe deleniti accusamus neque modi perspiciatis? Sunt deleniti quae similique dolorum commodi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque earum, quibusdam minus dolorem quam reiciendis voluptas repellat quisquam ut suscipit voluptatum cum tenetur cumque obcaecati?
-								<a class="more-info" href="news.html">
-									<i class="fas fa-angle-double-right"></i>
-								</a>
-								<hr class="news-hr">
-							</blockquote>
-						</div>
-					</div>
-					<!-- End News Box -->
+              <div class="card-body">
+                 <div class="os-animation" data-animation="fadeInUp">
+                    <h4 class="heading">News Report 1</h4>
+                 </div>
+                 <div class="row py-2 text-justify os-animation">
+                    <div>
+                       <h5 class="border-top border-bottom p-3 m-3">Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Ipsa rem quam quod exercitationem magni, necessitatibus eum molestiae
+                          numquam itaque sint!</h5>
+                    </div>
+                 </div>
+                 <div class="row text-secondary pb-2">
+                    <div class="col-6">
+                       <i class="fas fa-clock"></i> 2 days ago</div>
+                 </div>
+                 <hr>
+                 <a href="news.html" class="btn btn-primary btn-block">More Info</a>
+              </div>
+           </div>
+        </div>
+        <!-- End of Listing 1 -->
 
-					<!-- Start News Box -->
-					<div class="row news px-3 px-md-4">
-						<div class="col-lg-4 mx-auto"><img src="img/logo-news-2.jpg" alt="">
-						</div>
-						<div class="col-lg-8">
-							<blockquote class="text-justify">
-								<i class="fas fa-quote-left"></i>
-								I see Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium ipsum porro nulla impedit vero in! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque et dolor illo tempora architecto dolorum rerum aspernatur incidunt odio beatae. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-								<a class="more-info" href="news.html">
-									<i class="fas fa-angle-double-right"></i>
-								</a>
-								<hr class="news-hr">
-							</blockquote>
-						</div>
-					</div>
-					<!-- End News Box -->
+        <!-- Listing 2 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+           <div class="card listing-preview">
+              <img class="card-img-top rounded-0" src="img/logo-news-1.jpg" alt="">
 
-					<!-- Start News Box -->
-					<div class="row news px-3 px-md-4">
-						<div class="col-lg-4 mx-auto"><img src="img/logo-news-3.jpg" alt="">
-						</div>
-						<div class="col-lg-8">
-							<blockquote class="text-justify">
-								<i class="fas fa-quote-left"></i>
-								I see Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, fugit. Ipsum repellat dicta at quas. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores doloribus accusantium deserunt excepturi tempore placeat voluptatem ab officia aliquam soluta, earum, quis in necessitatibus quas!
-								<a class="more-info" href="news.html">
-									<i class="fas fa-angle-double-right"></i>
-								</a>
-								<hr class="news-hr">
-							</blockquote>
-						</div>
-					</div>
-					<!-- End News Box -->
+              <div class="card-body">
+                 <div class="os-animation" data-animation="fadeInUp">
+                    <h4 class="heading">News Report 2</h4>
+                 </div>
+                 <div class="row py-2 text-justify os-animation">
+                    <div>
+                       <h5 class="border-top border-bottom p-3 m-3">Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Ipsa rem quam quod exercitationem magni, necessitatibus eum molestiae
+                          numquam itaque sint!</h5>
+                    </div>
+                 </div>
+                 <div class="row text-secondary pb-2">
+                    <div class="col-6">
+                       <i class="fas fa-clock"></i> 2 days ago</div>
+                 </div>
+                 <hr>
+                 <a href="news.html" class="btn btn-primary btn-block">More Info</a>
+              </div>
+           </div>
+        </div>
+        <!-- End of Listing 2 -->
 
-				</div> <!--End Carousel-->
-			</div> <!--End Column-->
-		</div> <!--End Row-->
-	</div>
-	<!-- End News Section -->
+        <!-- Newsreport 3 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+           <div class="card listing-preview">
+              <img class="card-img-top rounded-0" src="img/logo-news-1.jpg" alt="">
 
+              <div class="card-body">
+                 <div class="os-animation" data-animation="fadeInUp">
+                    <h4 class="heading">News Report 3</h4>
+                 </div>
+                 <div class="row py-2 text-justify os-animation">
+                    <div>
+                       <h5 class="border-top border-bottom p-3 m-3">Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Ipsa rem quam quod exercitationem magni, necessitatibus eum molestiae
+                          numquam itaque sint!</h5>
+                    </div>
+                 </div>
+                 <div class="row text-secondary pb-2">
+                    <div class="col-6">
+                       <i class="fas fa-clock"></i> 2 days ago</div>
+                 </div>
+                 <hr>
+                 <a href="news.html" class="btn btn-primary btn-block">More Info</a>
+              </div>
+           </div>
+        </div>
+        <!-- End of Newsreport 3 -->
+
+        <!-- Newsreport 4 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+           <div class="card listing-preview">
+              <img class="card-img-top rounded-0" src="img/logo-news-1.jpg" alt="">
+
+              <div class="card-body">
+                 <div class="os-animation" data-animation="fadeInUp">
+                    <h4 class="heading">News Report 4</h4>
+                 </div>
+                 <div class="row py-2 text-justify os-animation">
+                    <div>
+                       <h5 class="border-top border-bottom p-3 m-3">Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Ipsa rem quam quod exercitationem magni, necessitatibus eum molestiae
+                          numquam itaque sint!</h5>
+                    </div>
+                 </div>
+                 <div class="row text-secondary pb-2">
+                    <div class="col-6">
+                       <i class="fas fa-clock"></i> 2 days ago</div>
+                 </div>
+                 <hr>
+                 <a href="news.html" class="btn btn-primary btn-block">More Info</a>
+              </div>
+           </div>
+        </div>
+        <!-- End of Newsreport 4 -->
+
+        <!-- Newsreport 5 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+           <div class="card listing-preview">
+              <img class="card-img-top rounded-0" src="img/logo-news-1.jpg" alt="">
+
+              <div class="card-body">
+                 <div class="os-animation" data-animation="fadeInUp">
+                    <h4 class="heading">News Report 5</h4>
+                 </div>
+                 <div class="row py-2 text-justify os-animation">
+                    <div>
+                       <h5 class="border-top border-bottom p-3 m-3">Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Ipsa rem quam quod exercitationem magni, necessitatibus eum molestiae
+                          numquam itaque sint!</h5>
+                    </div>
+                 </div>
+                 <div class="row text-secondary pb-2">
+                    <div class="col-6">
+                       <i class="fas fa-clock"></i> 2 days ago</div>
+                 </div>
+                 <hr>
+                 <a href="news.html" class="btn btn-primary btn-block">More Info</a>
+              </div>
+           </div>
+        </div>
+        <!-- End of Newsreport 5 -->
+
+        <!-- Newsreport 6 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+           <div class="card listing-preview">
+              <img class="card-img-top rounded-0" src="img/logo-news-1.jpg" alt="">
+
+              <div class="card-body">
+                 <div class="os-animation" data-animation="fadeInUp">
+                    <h4 class="heading">News Report 6</h4>
+                 </div>
+                 <div class="row py-2 text-justify os-animation">
+                    <div>
+                       <h5 class="border-top border-bottom p-3 m-3">Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Ipsa rem quam quod exercitationem magni, necessitatibus eum molestiae
+                          numquam itaque sint!</h5>
+                    </div>
+                 </div>
+                 <div class="row text-secondary pb-2">
+                    <div class="col-6">
+                       <i class="fas fa-clock"></i> 2 days ago</div>
+                 </div>
+                 <hr>
+                 <a href="news.html" class="btn btn-primary btn-block">More Info</a>
+              </div>
+           </div>
+        </div>
+        <!-- End of Newsreport 6 -->
+     </div>
+
+
+     <!-- Pagination -->
+     <div class="row light">
+        <div class="col-md-12">
+           <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                 <a class="page-link" href="#">&laquo;</a>
+              </li>
+              <li class="page-item active">
+                 <a class="page-link" href="#">1</a>
+              </li>
+              <li class="page-item">
+                 <a class="page-link" href="#">2</a>
+              </li>
+              <li class="page-item">
+                 <a class="page-link" href="#">3</a>
+              </li>
+              <li class="page-item">
+                 <a class="page-link" href="#">&raquo;</a>
+              </li>
+           </ul>
+        </div>
+     </div>
+     <!-- End of Pagination -->
+  </div>
+</section>
+<!-- End of Listnings -->
 
 {% endblock %}

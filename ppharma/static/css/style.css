@@ -7,8 +7,9 @@ html{
 /*-- Prevent Horizontal Scrolling & Font Style --*/
 html, body{
    overflow-x: hidden;
-   font-family: 'Lato', sans-serif;
+   font-family: 'Montserrat', sans-serif;
    color: #505962;
+   font-weight: 300;
 }
 .text-pro{
    color: #ef7f1a;
@@ -30,7 +31,15 @@ html, body{
 .navbar{
    padding: .7rem 1rem;
    text-transform: uppercase;
-   font-weight: 700;
+   font-weight: 400;
+   letter-spacing: 0.1rem;
+   font-size: 0.9rem;
+   transition: background-color .5s ease;
+}
+.navbarNews{
+   padding: .7rem 1rem;
+   text-transform: uppercase;
+   font-weight: 400;
    letter-spacing: 0.1rem;
    font-size: 0.9rem;
    transition: background-color .5s ease;
@@ -136,16 +145,57 @@ button, a, a.btn, .svg-inline--fa {
    max-width: 100%;
 }
 .caption h1{
-   font-size: 4rem;
+   font-size: 2.5rem;
    letter-spacing: .2rem;
    text-shadow: .1rem .1rem .8rem black;
    padding-bottom: 1rem;
 }
-.caption h3{
-   font-size: 2.5rem;
+/* Start of Text typing animation's style */
+/* .container{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} */
+
+/* .container h2 {
+   font-size: 3rem;
+   font-weight: 100;
+   letter-spacing: 0.1rem;
+   text-align: center;
+   overflow: hidden;
+   padding: 0.5rem;
+} */
+
+.typed-text{
+   font-weight: normal;
+   color: #dd7732;
+}
+
+.cursor{
+   display: inline-block;
+   width: 3px;
+   background-color: #ccc;
+   margin-left: 0.1rem;
+   animation: blink 1s infinite;
+}
+.cursor.typing{
+   animation: none;
+}
+@keyframes blink{
+   0% {background-color: #ccc;}
+   49% {background-color: #ccc;}
+   50% {background-color: transparent;}
+   99% {background-color: transparent;}
+   100% {background-color: #ccc;}
+}
+/* End of the Text-typing animation's style */
+
+/* .caption h3{
+   font-size: 2rem;
    text-shadow: .1rem .1rem .9rem black;
    padding-bottom: 2rem;
-}
+} */
 .caption .btn-lg{
    border-width: medium;
    padding: .8rem 1.5rem;
@@ -462,6 +512,23 @@ a.top-scroll:hover{
    color: #535962;
    font-size: 3rem;
    height: 1.7rem;
+}
+
+/*============= NEWSREPORT STYLES =========*/
+.listing-preview a {
+   position: relative; }
+
+/*============= PAGINATION STYLES =========*/
+.page-link{
+   color: #ef7f1a;
+   background-color: #fff;
+}
+.page-link:hover{
+   color: #505962!important;
+}
+.page-item.active .page-link{
+   background-color: #505962!important;
+   border-color: #505962!important;
 }
 
 /*============= MEDIA QUERIES =============*/
